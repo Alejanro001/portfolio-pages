@@ -1,0 +1,114 @@
+/* imports */
+
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
+
+*{
+    border: 1px solid red;
+} 
+/* tags go here */
+body{
+    margin: 0em auto;
+    max-width: 85%;
+    font-family: 'Spartan', sans-serif;
+    color: #060E26;
+    background: rgb(134,171,161);
+background: linear-gradient(0deg, rgba(134,171,161,1) 7%, rgba(223,243,227,1) 15%, rgba(255,245,192,1) 28%, rgba(255,179,150,1) 38%, rgba(235,157,157,1) 50%, rgba(97,105,201,1) 88%);
+
+}
+h1{
+        color: #eb5e0b;
+}
+strong{
+    font-weight: bolder;
+}
+h2, h3, p, li{
+    color: #005693;
+}
+/* classes go here */
+.page{
+    min-height: 50rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    min-width: 100%;
+    background-color: #eb5e0b;
+}
+.nav-bar{
+    display: flex;
+    color:#DFE4F2;
+}
+.nav-item{
+    justify-content: stretch;
+    list-style-type: none;
+    padding: 0 5px;
+}
+.header{
+    min-height: 70rem;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    align-content: center;
+ 
+}
+
+.header > h1, h4 {
+        margin: 10px;
+}
+.header > h1{
+    margin-top:  40%;
+    font-size: 3em;
+}
+.about_me{
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    color: darkblue;
+}
+.about_me > img {
+    float: right;
+    max-width: 30%;
+    border-radius: 50%;
+}
+.tech_card{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 200px 200px;
+}
+.card_body{
+    background-size: cover;
+}
+.html{
+    background-image: url("images/html.png");
+}
+.css{
+    background-image: url("images/css.png");
+}
+.js{
+    background-image: url("images/js.png");
+}
+.bootstrap{
+    background-image: url("images/bootstrap.png");
+}
+.sql{
+    background-image: url("images/sql.png");
+}
+.csharp{
+    background-image: url("images/csharp.png");
+}
+.aspnet{
+    background-image: url("images/mvc5.png");
+}
+.python{
+    background-image: url("images/python.png");
+}
+
+/* .about_me > h3 {
+    justify-items: start;
+} */
+
+/* IDs go here */
+
+/* media queries go here */
