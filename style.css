@@ -71,7 +71,7 @@ h2, h3, h4, p, a {
     align-items: center;
     align-content: center;
     background: rgb(241, 246, 249);
-    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 75%, rgba(20, 39, 78, 1) 100%);
+    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 20%, rgba(20, 39, 78, 1) 100%);
 }
 
 .header>h1, h4 {
@@ -94,7 +94,7 @@ h2, h3, h4, p, a {
     color: #394867;
     min-height: 100vh;
     background: rgb(241, 246, 249);
-    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 62%, rgba(255, 239, 0, 1) 100%);
+    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 20%, rgba(255, 239, 0, 1) 100%);
 }
 
 .about_me>img {
@@ -112,7 +112,7 @@ h2, h3, h4, p, a {
 
 .tech {
     background: rgb(241, 246, 249);
-    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 62%, rgba(40, 255, 0, 1) 100%);
+    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 20%, rgba(40, 255, 0, 1) 100%);
 }
 
 .tech_card {
@@ -175,16 +175,16 @@ h2, h3, h4, p, a {
 
 .port {
     background: rgb(241, 246, 249);
-    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 62%, rgba(255, 109, 0, 1) 100%);
+    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 20%, rgba(255, 109, 0, 1) 100%);
     margin-top: 2rem;
 }
 .resume{
     background: rgb(241,246,249);
-    background: linear-gradient(0deg, rgba(241,246,249,1) 62%, rgba(100,13,156,1) 100%);
+    background: linear-gradient(0deg, rgba(241,246,249,1) 20%, rgba(100,13,156,1) 100%);
 }
 .contact_form {
     background: rgb(241,246,249);
-background: linear-gradient(0deg, rgba(241,246,249,1) 41%, rgba(104,232,236,1) 100%);
+background: linear-gradient(0deg, rgba(241,246,249,1) 20%, rgba(104,232,236,1) 100%);
 }
 
 /* .about_me > h3 {
