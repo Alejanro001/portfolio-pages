@@ -1,126 +1,189 @@
 /* imports */
 
 @import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap');
-
-*{
+/* * {
     border: 1px solid red;
-} 
+} */
+
 /* tags go here */
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     margin: 0em auto;
     max-width: 85%;
     font-family: 'Spartan', sans-serif;
     color: #060E26;
-    background: rgb(134,171,161);
-background: linear-gradient(0deg, rgba(134,171,161,1) 7%, rgba(223,243,227,1) 15%, rgba(255,245,192,1) 28%, rgba(255,179,150,1) 38%, rgba(235,157,157,1) 50%, rgba(97,105,201,1) 88%);
+    background-color: #f1f6f9;
+}
 
+h1 {
+    color: #14274e;
 }
-h1{
-        color: #eb5e0b;
+
+span {
+    color: orangered;
 }
-strong{
-    font-weight: bolder;
+
+h2, h3, h4, p, a {
+    color: #394867;
 }
-h2, h3, h4, p, a{
-    color: #ffffff;
-}
+
 /* classes go here */
-.page{
+
+.page {
     min-height: 100vh;
 }
-.nav{
+
+.nav {
     position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     min-width: 100%;
-    background-color: #eb5e0b;
+    background-color: #14274e;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
-    color:#DFE4F2;
+    color: #DFE4F2;
     position: sticky;
     top: 0;
 }
-.nav-item{
+
+.nav-item {
     justify-content: stretch;
     list-style-type: none;
     padding: 0 5px;
     text-decoration: none;
 }
-.header{
-    min-height: 70rem;
+
+.nav-item>a {
+    color: white;
+}
+
+.header {
     display: flex;
     flex-flow: column;
     align-items: center;
     align-content: center;
- 
+    background: rgb(241, 246, 249);
+    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 75%, rgba(20, 39, 78, 1) 100%);
 }
 
-.header > h1, h4 {
-        margin: 10px;
+.header>h1, h4 {
+    margin: 10px;
 }
-.header > h1{
-    margin-top:  40%;
+
+.header>h1 {
     font-size: 3em;
 }
-.about_me{
+
+.header>img {
+    margin-top: 20vh;
+    max-width: 30%;
+    border-radius: 50%;
+}
+
+.about_me {
     flex-direction: row;
     align-items: center;
-    color: darkblue;
+    color: #394867;
     min-height: 100vh;
+    background: rgb(241, 246, 249);
+    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 62%, rgba(255, 239, 0, 1) 100%);
 }
-.about_me > img {
+
+.about_me>img {
     float: right;
     max-width: 30%;
     border-radius: 50%;
 }
+
 /* .tech_card{
     display: grid;
     justify-content: center;
     grid-template-columns: 33% 33% 34%;
     grid-template-rows: 360px 360px 360px;
 } */
-.tech_card{
+
+.tech {
+    background: rgb(241, 246, 249);
+    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 62%, rgba(40, 255, 0, 1) 100%);
+}
+
+.tech_card {
     min-height: 80vh;
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
 }
-.card_body{
+
+.card_body {
     min-width: 25vw;
     min-height: 20vh;
     background-size: cover;
 }
-.html{
+
+.html {
     background-image: url("images/html.png");
 }
-.css{
+
+.css {
     background-image: url("images/css.png");
 }
-.js{
+
+.js {
     background-image: url("images/js.png");
 }
-.bootstrap{
+
+.bootstrap {
     background-image: url("images/bootstrap.png");
 }
-.sql{
+
+.sql {
     background-image: url("images/sql.png");
 }
-.csharp{
+
+.csharp {
     background-image: url("images/csharp.png");
 }
-.aspnet{
+
+.aspnet {
     background-image: url("images/mvc5.png");
 }
-.python{
+
+.python {
     background-image: url("images/python.png");
 }
-.danger > img{
+.pokemon{
+    background-image: url("images/pokemon.png");
+}
+
+.danger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.danger>img {
     max-width: 80vw;
+}
+
+.port {
+    background: rgb(241, 246, 249);
+    background: linear-gradient(0deg, rgba(241, 246, 249, 1) 62%, rgba(255, 109, 0, 1) 100%);
+    margin-top: 2rem;
+}
+.resume{
+    background: rgb(241,246,249);
+    background: linear-gradient(0deg, rgba(241,246,249,1) 62%, rgba(100,13,156,1) 100%);
+}
+.contact_form {
+    background: rgb(241,246,249);
+background: linear-gradient(0deg, rgba(241,246,249,1) 41%, rgba(104,232,236,1) 100%);
 }
 
 /* .about_me > h3 {
@@ -130,13 +193,19 @@ h2, h3, h4, p, a{
 /* IDs go here */
 
 /* media queries go here */
+
 @media screen and (max-width: 600px) {
     .card_body {
         min-width: 80vw;
         min-height: 50vh;
     }
-    .nav-item{
+    .nav-item {
         display: none;
     }
+}
 
+@media screen and (min-width: 1000px) {
+    .card_body {
+        min-height: 40vh;
+    }
 }
