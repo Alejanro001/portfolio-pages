@@ -11,12 +11,19 @@
 <body>
     <div class="nav">
         <ul class="nav-bar">
-            <li class="nav-item">home </li>
+            <li class="nav-item"><a href="#">home</a></li>
+            <li class="nav-item"><a href="#about">about</a></li>
+            <li class="nav-item"><a href="#tech">tech</a></li>
+            <li class="nav-item"><a href="#projects">projects</a></li>
+            <li class="nav-item"><a href="#resume">resume</a></li>
+            <li class="nav-item"><a href="#contact">get in touch!</a></li>
+
+            <!-- <li class="nav-item">home </li>
             <li class="nav-item"> about </li>
             <li class="nav-item"> tech </li>
             <li class="nav-item"> projects </li>
             <li class="nav-item"> resume </li>
-            <li class="nav-item"><strong> get in touch </strong></li>
+            <li class="nav-item"><strong> get in touch </strong></li> -->
         </ul>
     </div>
 
@@ -24,22 +31,7 @@
         <h1>brandon <strong>MAYS</strong></h1>
         <h4>full stack web developer | software engineer | evil genious</h4>
     </div>
-    <div class="tech page">
-        <h1>technologies</h1>
-        <div class="tech_card">
-            <!-- tech cards and icons here -->
-            <div class="card_body html"></div>
-            <div class="card_body css"></div>
-            <div class="card_body js"></div>
-            <div class="card_body bootstrap"></div>
-            <div class="card_body sql"></div>
-            <div class="card_body csharp"></div>
-            <div class="card_body aspnet"></div>
-            <div class="card_body python"></div>
-
-        </div>
-    </div>
-    <div class="about_me page">
+    <div class="about_me page" id="about">
         <h1>about me</h1>
         <img src="images/1576204493993.jpeg" alt="">
         <h3>backgroud</h3>
@@ -56,21 +48,39 @@
             corporis eius rerum! Ut, quod praesentium. Nulla labore veritatis corporis impedit vero eaque. Veritatis,
             nobis? In illum a omnis debitis distinctio ipsam perspiciatis modi.</p>
     </div>
+    <div class="tech page" id="tech">
+        <h1>technologies</h1>
+        <div class="tech_card">
+            <!-- tech cards and icons here -->
+            <div class="card_body html"></div>
+            <div class="card_body css"></div>
+            <div class="card_body js"></div>
+            <div class="card_body bootstrap"></div>
+            <div class="card_body sql"></div>
+            <div class="card_body csharp"></div>
+            <div class="card_body aspnet"></div>
+            <div class="card_body python"></div>
 
-
-
-    <div class="port page ">
-        <div class="danger">
-            <h1>projects</h1>
-            <h4>stay tuned! more to come</h4>
         </div>
     </div>
 
-    <div class="resume page">
+
+
+
+
+    <div class="port page" id="projects">
+        <div class="danger">
+            <h1>projects</h1>
+            <h4>stay tuned! more to come</h4>
+            <img src="images/UnderConstruction.png" alt="">
+        </div>
+    </div>
+
+    <div class="resume page" id="resume">
         <h1>experience</h1>
     </div>
 
-    <div class="contact_form page">
+    <div class="contact_form page" id="contact">
         <h1>shoot me a message!</h1>
         <div class="contact_content">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur adipisci perspiciatis!
@@ -98,6 +108,10 @@
             </form>
         </div>
     </div>
+
+    <footer>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
 </body>
 
 </html>

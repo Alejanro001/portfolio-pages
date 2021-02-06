@@ -6,6 +6,9 @@
     border: 1px solid red;
 } 
 /* tags go here */
+html{
+    scroll-behavior: smooth;
+}
 body{
     margin: 0em auto;
     max-width: 85%;
@@ -21,14 +24,15 @@ h1{
 strong{
     font-weight: bolder;
 }
-h2, h3, p, li{
-    color: #005693;
+h2, h3, h4, p, a{
+    color: #ffffff;
 }
 /* classes go here */
 .page{
-    min-height: 50rem;
+    min-height: 100vh;
 }
 .nav{
+    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -38,11 +42,14 @@ h2, h3, p, li{
 .nav-bar{
     display: flex;
     color:#DFE4F2;
+    position: sticky;
+    top: 0;
 }
 .nav-item{
     justify-content: stretch;
     list-style-type: none;
     padding: 0 5px;
+    text-decoration: none;
 }
 .header{
     min-height: 70rem;
@@ -61,23 +68,31 @@ h2, h3, p, li{
     font-size: 3em;
 }
 .about_me{
-    display: inline;
     flex-direction: row;
     align-items: center;
     color: darkblue;
+    min-height: 100vh;
 }
 .about_me > img {
     float: right;
     max-width: 30%;
     border-radius: 50%;
 }
-.tech_card{
+/* .tech_card{
     display: grid;
     justify-content: center;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 200px 200px;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 360px 360px 360px;
+} */
+.tech_card{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
 }
 .card_body{
+    min-width: 25vw;
+    min-height: 20vh;
     background-size: cover;
 }
 .html{
@@ -104,6 +119,9 @@ h2, h3, p, li{
 .python{
     background-image: url("images/python.png");
 }
+.danger > img{
+    max-width: 80vw;
+}
 
 /* .about_me > h3 {
     justify-items: start;
@@ -112,3 +130,13 @@ h2, h3, p, li{
 /* IDs go here */
 
 /* media queries go here */
+@media screen and (max-width: 600px) {
+    .card_body {
+        min-width: 80vw;
+        min-height: 50vh;
+    }
+    .nav-item{
+        display: none;
+    }
+
+}
