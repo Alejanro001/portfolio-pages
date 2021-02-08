@@ -10,12 +10,12 @@
 
 <body>
     <div class="nav">
-        <ul class="nav-bar">
+        <ul class="nav-bar desktop">
             <li class="nav-item"><a href="#">home</a></li>
             <li class="nav-item"><a href="#about">about</a></li>
             <li class="nav-item"><a href="#tech">tech</a></li>
             <li class="nav-item"><a href="#projects">projects</a></li>
-            <li class="nav-item"><a href="#resume">resume</a></li>
+            <li class="nav-item"><a href="#resume">experience</a></li>
             <li class="nav-item"><a href="#contact">get in touch!</a></li>
 
             <!-- <li class="nav-item">home </li>
@@ -25,89 +25,127 @@
             <li class="nav-item"> resume </li>
             <li class="nav-item"><strong> get in touch </strong></li> -->
         </ul>
+        <ul class="nav-bar mobile">
+            <img src="images/hamburger_menu_icon.png" alt="">
+        </ul>
     </div>
 
     <div class="header page">
         <img src="images/1576204493993.jpeg" alt="">
+        <h4>hello! I'm</h4>
         <h1>brandon <span>MAYS</span></h1>
-        <h4>full stack web developer | software engineer | evil genious</h4>
+        <h4>full stack web developer | software engineer | coffee addict</h4>
     </div>
     <div class="about_me page" id="about">
-        <h1>about me</h1>
+        <h1 class="about_header">about me</h1>
         <img src="images/teaching.jpg" alt="">
-        <h3>backgroud</h3>
-        <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque dicta assumenda
-            temporibus. Qui pariatur at porro! Voluptatum quia perspiciatis hic saepe, id, velit adipisci porro
-            blanditiis nisi esse beatae facere laborum vel assumenda fugit corporis distinctio ex neque animi? Molestiae
-            fugit ipsum cupiditate, corrupti, assumenda amet error enim optio deleniti quo, quidem eius expedita?
-            Eveniet optio ipsum, asperiores nam eaque aspernatur repudiandae excepturi molestiae delectus aliquam
-            dolorum minima nostrum, vitae pariatur reprehenderit laboriosam rerum.</p>
-        <h3>mission statement</h3>
-        <p class="about_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam error voluptas architecto
-            vero praesentium
-            vitae obcaecati. Consequatur, praesentium laudantium, a impedit placeat harum voluptatem est accusantium
-            corporis eius rerum! Ut, quod praesentium. Nulla labore veritatis corporis impedit vero eaque. Veritatis,
-            nobis? In illum a omnis debitis distinctio ipsam perspiciatis modi.</p>
+        <h3>before tech</h3>
+        <p class="about_para">Hey there! I’m Brandon Mays. I’m a southern boy from Georgia, although I’m currently based
+            in Washington, D.C. In school, I was always drawn to performing arts and foreign languages. I went on to
+            major in music and Spanish at Columbus State University in Columbus, GA. After college, I did anything from
+            fine dining to church musician to yoga instructor.</p>
+        <h3>after tech</h3>    
+        <p class="about_para">In 2019, I moved to Kansas City. There, I attended Centriq training to study full stack
+            web development. There I complete projects using front end languages and frameworks, C#, SQL database and
+            used MVC design pattern architecture with ASP.NET and entity frameworks. In 2021 I began studying software
+            engineering at General Assembly.</p>
+        <h3>commitment to you</h3>
+        <p class="about_para">I plan to use every transferable skill from before my tech career to every technical tool from my technical training to bring you a project that is unique, elegant, functional, and mostly, one that’s perfect for you!</p>
     </div>
     <div class="tech page" id="tech">
-        <h1>technologies</h1>
+        <h1 class="tech_header">technologies</h1>
         <div class="tech_card">
             <!-- tech cards and icons here -->
-            <div class="card_body html"></div>
-            <div class="card_body css"></div>
-            <div class="card_body js"></div>
-            <div class="card_body bootstrap"></div>
-            <div class="card_body sql"></div>
-            <div class="card_body csharp"></div>
-            <div class="card_body aspnet"></div>
-            <div class="card_body python"></div>
-            <div class="card_body pokemon"></div>
+            <div class="card_body html">
+                <progress value="90" max="100"></progress>
+            </div>
+            <div class="card_body css">
+                <progress value="90" max="100"></progress>
+            </div>
+            <div class="card_body js">
+                <progress value="35" max="100"></progress>
+            </div>
+            <div class="card_body bootstrap">
+                <progress value="75" max="100"></progress>
+            </div>
+            <div class="card_body sql">
+                <progress value="75" max="100"></progress>
+            </div>
+            <div class="card_body csharp">
+                <progress value="60" max="100"></progress>
+            </div>
+            <div class="card_body aspnet">
+                <progress value="55" max="100"></progress>
+            </div>
+            <div class="card_body python">
+                <progress value="10" max="100"></progress>
+            </div>
+            <div class="card_body node">
+                <progress value="20" max="100"></progress>
+            </div>
 
         </div>
     </div>
     <div class="port page" id="projects">
         <div class="danger">
-            <h1>projects</h1>
+            <h1 class="projects_header">projects</h1>
             <h4>stay tuned! more to come</h4>
             <img src="images/UnderConstruction.png" alt="">
         </div>
     </div>
 
     <div class="resume page" id="resume">
-        <h1>experience</h1>
+        <h1 class="resume_header">expreience</h1>
+        <div class="resume_item res_1">
+            <img src="images/centriq.png" alt="">
+            <h3>full stack we developer</h3>
+            <h4>october 2020</h4>
+        </div>
+        <div class="resume_item res_2">
+            <img src="images/ga-logo-gear.png" alt="">
+            <h3>software engineering </h3>
+            <h4>april 2021</h4>
+        </div>
+
+        <!-- <h1>experience</h1> -->
     </div>
 
     <div class="contact_form page" id="contact">
-        <h1>shoot me a message!</h1>
+        <h1 class="contact_header">shoot me a message!*</h1>
         <div class="contact_content">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur adipisci perspiciatis!
-                Delectus, tempora esse. Iste velit eos vero, illum aut optio corrupti magnam ullam!</p>
+            <p>Have questions? Ideas for a project? Let’s chat! Shoot me a quick message below and I’ll connect with you
+                soon. Stay awesome!</p>
             <form action="">
-                <ul>
+                <ul class="contact_list">
                     <li>
-                        <label for="name">Name:</label>
+                        <label for="name">name:</label>
                         <input type="text">
                     </li>
                     <li>
-                        <label for="email">Email:</label>
+                        <label for="email">email:</label>
                         <input type="text">
                     </li>
                     <li>
-                        <label for="phone">cell</label>
+                        <label for="phone">cell:</label>
                         <input type="phone">
                     </li>
-                    <li>
-                        <label for="msg">Message</label>
+                    <li class="msg">
+                        <label for="msg">message:</label>
                         <textarea name="msg" id="" cols="30" rows="10"></textarea>
                     </li>
 
                 </ul>
+                <!-- <button type="button">Submit</button> -->
             </form>
+            <button type="button" class="button">Submit</button>
+            <aside>* This form is currently under construction and will not send any messages at this time. </aside>
         </div>
     </div>
 
     <footer>
-        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        <h3>&copy; Brandon Mays 2021</h3>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
 </body>
 
